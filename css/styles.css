@@ -1,3 +1,46 @@
+
+body {
+  background-color: #F5F5F5;
+  color: #757575;
+
+  /* колір хедеру color: #ECECEC; */
+  /* альетрнативний колір фону color: #F5F4FA; */
+  /* колір футеру color: #2F303A; */
+  /* другорядний колір тексту color: #212121; */
+  /* основний колір тексту color: #757575; */
+  /* білий колір color: #ffffff; */
+  /* колір акценту color: #2196F3; */
+}
+ul {
+  list-style: none;
+}
+.logo {
+  color: #000000;
+}
+.site-nav-list .link {
+  color: #212121;
+}
+.site-nav-list .link:hover,
+.site-nav-list .link:focus {
+  color: #2196f3;
+}
+.auto-nav-list .link {
+  color: #757575;
+}
+.auto-nav-list .link:hover,
+.auto-nav-list .link:focus {
+color: #2196f3;
+}
+.hero {
+  background-color: #2f303a;
+}
+.hero-title {
+  color: #ffffff;
+}
+.hero-button {
+  background-color: #2196f3;
+  color: #ffffff;
+}
 .visually-hidden {
   position: absolute;
     white-space: nowrap;
@@ -9,4 +52,20 @@
     clip: rect(0 0 0 0);
     clip-path: inset(50%);
     margin: -1px;
+}
+.section-title {
+  color: #212121;
+}
+.features-title {
+  color: #212121;
+}
+.team-title {
+  color: #212121;
+}
+footer {
+  background-color: #2f303a;
+  color: #ffffff;
+}
+.footer-logo {
+  color: #ffffff;
 }
