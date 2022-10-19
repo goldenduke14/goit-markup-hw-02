@@ -2,8 +2,9 @@
 body {
   background-color: #F5F5F5;
   color: #757575;
+  font-family: "Roboto", sans-serif;
 
-  /* колір хедеру color: #ECECEC; */
+  /* колір бордеру color: #ECECEC; */
   /* альетрнативний колір фону color: #F5F4FA; */
   /* колір футеру color: #2F303A; */
   /* другорядний колір тексту color: #212121; */
@@ -17,18 +18,18 @@ ul {
 .logo {
   color: #000000;
 }
-.site-nav-list .link {
+.site-nav .link {
   color: #212121;
 }
-.site-nav-list .link:hover,
-.site-nav-list .link:focus {
+.site-nav .link:hover,
+.site-nav .link:focus {
   color: #2196f3;
 }
-.auto-nav-list .link {
+.auth-nav .link {
   color: #757575;
 }
-.auto-nav-list .link:hover,
-.auto-nav-list .link:focus {
+.auth-nav .link:hover,
+.auth-nav .link:focus {
 color: #2196f3;
 }
 .hero {
@@ -62,7 +63,7 @@ color: #2196f3;
 .team-title {
   color: #212121;
 }
-footer {
+.footer {
   background-color: #2f303a;
   color: #ffffff;
 }
