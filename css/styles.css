@@ -20,6 +20,7 @@ ul {
 }
 .site-nav .link {
   color: #212121;
+  text-decoration: none;
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
@@ -27,6 +28,7 @@ ul {
 }
 .auth-nav .link {
   color: #757575;
+  text-decoration: none;
 }
 .auth-nav .link:hover,
 .auth-nav .link:focus {
@@ -66,6 +68,13 @@ color: #2196f3;
 .footer {
   background-color: #2f303a;
   color: #ffffff;
+}
+.footer .link {
+  text-decoration: none;
+}
+.footer .link:hover,
+.footer .link:focus {
+  color: #2196f3;
 }
 .footer-logo {
   color: #ffffff;
