@@ -10,8 +10,9 @@
   --secondary-white-color: rgba(255, 255, 255, 0.6);
 }
 body {
-  background-color: var(--bg-color);
+  background-color: var(--primary-white-color);
   font-family: "Roboto", sans-serif;
+  font-style: normal;
   font-size: 14px;
   line-height: 1.7;
   letter-spacing: 0.03em;
@@ -47,10 +48,6 @@ body {
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: #000000;
-}
-.header .logo-studio:hover,
-.header .logo-studio:focus {
-  color: var(--accent-color);
 }
 /* navigation */
 .site-nav .link {
@@ -103,44 +100,6 @@ color: var(--accent-color);
   letter-spacing: 0.06em;
   color: var(--primary-white-color);
   cursor: pointer;
-}
-/* portfolio */
-.portfolio .list {
-  list-style: none;
-}
-/* button on portfolio */
-.button {
-  background-color: var(--second-bg-color);
-  font-family: inherit;
-  font-weight: 500;
-  font-size: 16px;
-  line-height: 1.62;
-  text-align: center;
-  letter-spacing: 0.03em;
-  color: #212121;
-  cursor: pointer;
-}
-.button:hover,
-.button:focus {
-  background-color: var(--accent-color);
-  color: var(--primary-white-color);
-}
-/* list of projects */
-.portfolio-link {
-  text-decoration: none;
-}
-.portfolio-title {
-  font-weight: 700;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--second-color-text);
-}
-.portfolio-text {
-  font-size: 16px;
-  line-height: 1.88;
-  letter-spacing: 0.03em;
-  color: var(--color-text);
 }
 /* features */
 .visually-hidden {
@@ -217,14 +176,7 @@ color: var(--accent-color);
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-}
-.footer-logo-web:hover,
-.footer-logo-web:focus {
-  color: var(--accent-color);
-}
-.footer-logo-studio:hover,
-.footer-logo-studio:focus {
-  color: var(--accent-color);
+  color: var(--primary-white-color);
 }
 /* address */
 .footer .list {
@@ -241,4 +193,42 @@ color: var(--accent-color);
 }
 .footer .contacts {
   color: var(--secondary-white-color);
+}
+/* portfolio */
+.portfolio .list {
+  list-style: none;
+}
+/* button on portfolio */
+.button {
+  background-color: var(--second-bg-color);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: #212121;
+  cursor: pointer;
+}
+.button:hover,
+.button:focus {
+  background-color: var(--accent-color);
+  color: var(--primary-white-color);
+}
+/* list of projects */
+.portfolio-link {
+  text-decoration: none;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--second-color-text);
+}
+.portfolio-text {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--color-text);
 }
